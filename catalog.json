@@ -1,0 +1,306 @@
+{
+  "title": "Awesome AI on Your Laptop",
+  "description": "Find local AI apps for document chat, transcription, dictation, image editing and coding, with setup requirements, source links and practical caveats.",
+  "intro": "Choose a useful task, compare the setup, then follow the original project. This collection covers desktop apps and a small set of supporting tools for Windows, macOS and Linux. Local execution is configuration-specific; cloud options are called out where relevant.",
+  "start_here": [
+    {
+      "id": "jan",
+      "task": "Chat with a downloaded model",
+      "reason": "A graphical starting point for local model use."
+    },
+    {
+      "id": "anythingllm",
+      "task": "Ask questions about documents",
+      "reason": "A document workspace with configurable providers."
+    },
+    {
+      "id": "openwhispr",
+      "task": "Dictate into another app",
+      "reason": "Hotkey-based voice input with a local mode."
+    },
+    {
+      "id": "buzz",
+      "task": "Transcribe an existing recording",
+      "reason": "A dedicated transcription interface."
+    },
+    {
+      "id": "upscayl",
+      "task": "Enlarge an image",
+      "reason": "A focused image upscaler; check Vulkan support."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I use these apps without a paid API key?",
+      "answer": "Several entries provide local inference after downloading software and models. Optional cloud models or features may require a paid key. Check the project card and upstream configuration rather than treating the whole application as free to run."
+    },
+    {
+      "question": "Will these work on an 8 GB or 16 GB laptop?",
+      "answer": "There is no universal answer. Model size, quantization, context length, input resolution, GPU memory and operating system all matter. The collection links to requirements rather than assigning unsupported memory guarantees. Reproducible hardware reports are welcome."
+    },
+    {
+      "question": "Does local AI mean no network traffic?",
+      "answer": "Not automatically. Downloads, update checks, optional cloud providers and custom extensions can use the network. Use a documented local configuration; this collection has not audited network behavior."
+    },
+    {
+      "question": "Are all entries open source?",
+      "answer": "The collection prioritizes inspectable projects but includes local tools with custom or mixed terms, explicitly noted in their cards. Code licenses and model licenses must be checked separately."
+    }
+  ],
+  "schema_version": "1.0",
+  "repository": "QuicqDev/awesome-ai-on-your-laptop",
+  "entries": [
+    {
+      "id": "jan",
+      "name": "Jan",
+      "url": "https://github.com/janhq/jan",
+      "category": "Chat and documents",
+      "summary": "Desktop app for downloading and chatting with local language models.",
+      "use_case": "Start with a graphical local chat app.",
+      "requirements": "Windows, macOS or Linux; memory depends on the downloaded model and context size.",
+      "caveat": "Cloud providers are optional; select a local model for on-device inference. Read the current upstream license.",
+      "source_urls": [
+        "https://github.com/janhq/jan/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "anythingllm",
+      "name": "AnythingLLM",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "category": "Chat and documents",
+      "summary": "Desktop and self-hosted workspaces for document chat and agent workflows.",
+      "use_case": "Ask questions across a collection of documents.",
+      "requirements": "Desktop build or self-hosted installation; configure the chat and embedding models.",
+      "caveat": "Local storage alone does not make a workflow offline: choose local embedding and generation providers.",
+      "source_urls": [
+        "https://github.com/Mintplex-Labs/anything-llm/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "category": "Chat and documents",
+      "summary": "Self-hosted interface for local and remote model backends.",
+      "use_case": "Use a browser interface with a locally hosted model.",
+      "requirements": "Python or container setup plus a compatible model backend.",
+      "caveat": "The interface does not supply every model. Current licensing includes branding conditions; inspect upstream terms.",
+      "source_urls": [
+        "https://github.com/open-webui/open-webui/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "khoj",
+      "name": "Khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "category": "Chat and documents",
+      "summary": "Self-hostable assistant that searches documents and supports local or online models.",
+      "use_case": "Connect personal notes to a conversational assistant.",
+      "requirements": "Self-hosted service and a configured model provider.",
+      "caveat": "Web search and online providers require network access; a local-only configuration has a narrower feature set.",
+      "source_urls": [
+        "https://github.com/khoj-ai/khoj/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "buzz",
+      "name": "Buzz",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "category": "Transcription and dictation",
+      "summary": "Desktop transcription and translation for audio using Whisper backends.",
+      "use_case": "Turn recordings into searchable text and subtitle files.",
+      "requirements": "Windows, macOS or Linux; download a speech model. CPU and acceleration options vary by backend.",
+      "caveat": "Model size and recording length affect speed and memory; translation and transcription are different tasks.",
+      "source_urls": [
+        "https://github.com/chidiwilliams/buzz/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "vibe",
+      "name": "Vibe",
+      "url": "https://github.com/thewh1teagle/vibe",
+      "category": "Transcription and dictation",
+      "summary": "Desktop application for transcribing audio and video with local models.",
+      "use_case": "Generate transcripts without wiring together a Python pipeline.",
+      "requirements": "Supported desktop build and downloaded model; inspect GPU backend support for your OS.",
+      "caveat": "Automatic transcripts still need correction for names, accents and noisy audio.",
+      "source_urls": [
+        "https://github.com/thewh1teagle/vibe/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "openwhispr",
+      "name": "OpenWhispr",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "category": "Transcription and dictation",
+      "summary": "Hotkey-driven desktop dictation with local and optional cloud speech models.",
+      "use_case": "Speak text into the application you are already using.",
+      "requirements": "Windows, macOS or Linux; microphone access and a selected speech model.",
+      "caveat": "Local and cloud modes coexist. Some features have additional platform restrictions, including on Intel Macs.",
+      "source_urls": [
+        "https://github.com/OpenWhispr/openwhispr/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "category": "Transcription and dictation",
+      "summary": "C/C++ Whisper implementation with CLI and application examples.",
+      "use_case": "Build an offline transcription command or lightweight voice interface.",
+      "requirements": "A downloaded Whisper model and matching build; CPU-only inference and several GPU backends are available.",
+      "caveat": "This is a developer-oriented engine rather than a polished dictation application.",
+      "source_urls": [
+        "https://github.com/ggml-org/whisper.cpp/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "piper",
+      "name": "Piper",
+      "url": "https://github.com/OHF-Voice/piper1-gpl",
+      "category": "Voice generation",
+      "summary": "Local text-to-speech engine with downloadable voices.",
+      "use_case": "Generate spoken narration from text using a local voice.",
+      "requirements": "Install the engine and a compatible voice model using upstream instructions.",
+      "caveat": "Voice models carry their own terms. This is the maintained successor linked by the archived rhasspy/piper repository.",
+      "source_urls": [
+        "https://github.com/OHF-Voice/piper1-gpl/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "url": "https://github.com/upscayl/upscayl",
+      "category": "Images and design",
+      "summary": "Desktop AI image upscaling application.",
+      "use_case": "Enlarge an image with a simple graphical workflow.",
+      "requirements": "Windows, macOS or Linux; upstream requires a compatible Vulkan GPU and notes limitations for integrated GPUs.",
+      "caveat": "Upscaling estimates detail; it does not recover a guaranteed original image. Verify GPU compatibility before installing.",
+      "source_urls": [
+        "https://github.com/upscayl/upscayl/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "category": "Images and design",
+      "summary": "Creative interface for diffusion-based image generation and editing.",
+      "use_case": "Work on generated images with a visual canvas workflow.",
+      "requirements": "A supported installation and image model; consult current model-specific memory and accelerator guidance.",
+      "caveat": "Large image models may exceed laptop resources; model licenses are separate from application code.",
+      "source_urls": [
+        "https://github.com/invoke-ai/InvokeAI/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "category": "Images and design",
+      "summary": "Node-based workflows for image and other generative media models.",
+      "use_case": "Combine generation and processing steps in a visual graph.",
+      "requirements": "Desktop or Python installation, model files and hardware appropriate to the workflow.",
+      "caveat": "Optional API nodes and custom nodes can use remote services; inspect a workflow before treating it as offline.",
+      "source_urls": [
+        "https://github.com/Comfy-Org/ComfyUI/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "docling",
+      "name": "Docling",
+      "url": "https://github.com/docling-project/docling",
+      "category": "Documents to data",
+      "summary": "Document conversion toolkit with structured export for downstream AI applications.",
+      "use_case": "Convert PDFs into structured text before indexing or summarizing them.",
+      "requirements": "Python environment and the model assets required by the chosen conversion pipeline.",
+      "caveat": "A parsing result is not a factual summary; complex layouts and scanned documents need output review.",
+      "source_urls": [
+        "https://github.com/docling-project/docling/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "category": "Coding and model runners",
+      "summary": "Terminal coding assistant that works with local or cloud language models.",
+      "use_case": "Ask an assistant to edit a version-controlled codebase.",
+      "requirements": "Python, Git and a supported model connection; local use requires a separately running local backend.",
+      "caveat": "Coding quality depends heavily on the chosen model; review diffs and run project tests.",
+      "source_urls": [
+        "https://github.com/Aider-AI/aider/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://github.com/ollama/ollama",
+      "category": "Coding and model runners",
+      "summary": "Model runner with a command-line interface and API for other applications.",
+      "use_case": "Serve a local model to a chat UI or Python application.",
+      "requirements": "Windows, macOS or Linux and sufficient resources for the selected model.",
+      "caveat": "Not every model fits a laptop. Local models and cloud offerings should be distinguished explicitly.",
+      "source_urls": [
+        "https://github.com/ollama/ollama/blob/main/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "category": "Coding and model runners",
+      "summary": "C/C++ inference engine with CLI and server interfaces for supported models.",
+      "use_case": "Control a local model server and its inference settings directly.",
+      "requirements": "Compatible build and model file; supports CPU and multiple acceleration backends.",
+      "caveat": "More configuration is exposed than in a desktop app; quantization and context size change resource needs.",
+      "source_urls": [
+        "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
+      ],
+      "reviewed_on": "2026-09-12",
+      "verification": "documentation-reviewed"
+    }
+  ],
+  "related": [
+    {
+      "slug": "awesome-small-ai-apps",
+      "title": "Awesome Small AI Apps",
+      "purpose": "Practical small-model AI applications and building blocks for OCR, speech, embeddings, browser AI, mobile vision and text extraction."
+    },
+    {
+      "slug": "awesome-open-source-ai-discoveries",
+      "title": "Awesome Open-Source AI Discoveries",
+      "purpose": "Explore creative open-source AI projects for 3D, images, video, music, speech and documents, with upstream examples, setup notes and limitations."
+    }
+  ]
+}

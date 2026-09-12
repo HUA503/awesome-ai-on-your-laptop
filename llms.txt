@@ -1,0 +1,30 @@
+# Awesome AI on Your Laptop
+
+> Find local AI apps for document chat, transcription, dictation, image editing and coding, with setup requirements, source links and practical caveats.
+
+A documentation-reviewed collection maintained by QuicqDev. Follow source links for current upstream facts. Requirements are configuration-specific; inclusion is not an installation, security or performance certification.
+
+## Catalog
+
+- [Structured entries](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/catalog.json): Stable IDs, use cases, requirements, limitations and evidence.
+- [Schema](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/catalog.schema.json): Machine-readable field definitions.
+- [Methodology](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/METHODOLOGY.md): Selection rules and evidence meanings.
+
+## Projects
+
+- [Jan](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/jan.md): Start with a graphical local chat app. Evidence: documentation-reviewed.
+- [AnythingLLM](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/anythingllm.md): Ask questions across a collection of documents. Evidence: documentation-reviewed.
+- [Open WebUI](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/open-webui.md): Use a browser interface with a locally hosted model. Evidence: documentation-reviewed.
+- [Khoj](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/khoj.md): Connect personal notes to a conversational assistant. Evidence: documentation-reviewed.
+- [Buzz](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/buzz.md): Turn recordings into searchable text and subtitle files. Evidence: documentation-reviewed.
+- [Vibe](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/vibe.md): Generate transcripts without wiring together a Python pipeline. Evidence: documentation-reviewed.
+- [OpenWhispr](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/openwhispr.md): Speak text into the application you are already using. Evidence: documentation-reviewed.
+- [whisper.cpp](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/whisper-cpp.md): Build an offline transcription command or lightweight voice interface. Evidence: documentation-reviewed.
+- [Piper](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/piper.md): Generate spoken narration from text using a local voice. Evidence: documentation-reviewed.
+- [Upscayl](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/upscayl.md): Enlarge an image with a simple graphical workflow. Evidence: documentation-reviewed.
+- [InvokeAI](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/invokeai.md): Work on generated images with a visual canvas workflow. Evidence: documentation-reviewed.
+- [ComfyUI](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/comfyui.md): Combine generation and processing steps in a visual graph. Evidence: documentation-reviewed.
+- [Docling](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/docling.md): Convert PDFs into structured text before indexing or summarizing them. Evidence: documentation-reviewed.
+- [Aider](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/aider.md): Ask an assistant to edit a version-controlled codebase. Evidence: documentation-reviewed.
+- [Ollama](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/ollama.md): Serve a local model to a chat UI or Python application. Evidence: documentation-reviewed.
+- [llama.cpp](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/llama-cpp.md): Control a local model server and its inference settings directly. Evidence: documentation-reviewed.

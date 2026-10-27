@@ -2,7 +2,7 @@
 
 Find local AI apps for document chat, transcription, dictation, image editing and coding, with setup requirements, source links and practical caveats.
 
-**16 curated entries** · [Browse by task](#browse-by-task) · [Suggest a project](https://github.com/QuicqDev/awesome-ai-on-your-laptop/issues/new?template=suggest-project.yml) · [JSON catalog](catalog.json) · [Agent index](llms.txt)
+**17 curated entries** · [Browse by task](#browse-by-task) · [Suggest a project](https://github.com/QuicqDev/awesome-ai-on-your-laptop/issues/new?template=suggest-project.yml) · [JSON catalog](catalog.json) · [Agent index](llms.txt)
 
 Choose a useful task, compare the setup, then follow the original project. This collection covers desktop apps and a small set of supporting tools for Windows, macOS and Linux. Local execution is configuration-specific; cloud options are called out where relevant.
 
@@ -10,6 +10,7 @@ Choose a useful task, compare the setup, then follow the original project. This 
 
 | If you want to... | Explore | Why it belongs |
 |---|---|---|
+| Process everyday documents and media locally | [Baixia Workshop](projects/baixia-workshop.md) | One Windows workspace combines conversion tools with local OCR, image processing and speech features. |
 | Chat with a downloaded model | [Jan](projects/jan.md) | A graphical starting point for local model use. |
 | Ask questions about documents | [AnythingLLM](projects/anythingllm.md) | A document workspace with configurable providers. |
 | Dictate into another app | [OpenWhispr](projects/openwhispr.md) | Hotkey-based voice input with a local mode. |
@@ -59,6 +60,7 @@ Hardware requirements depend on model, quantization, context length and workload
 
 | Project | Useful for | Setup and requirements |
 |---|---|---|
+| [Baixia Workshop](projects/baixia-workshop.md) · [upstream](https://github.com/HUA503/baixia-workshop) | Process everyday documents and media in one Windows workspace, including image and speech tasks with local AI models. | Windows 10 or 11 and Python 3.10 or newer; FFmpeg is recommended for media tools. Install Python dependencies and the project's model assets as directed upstream. |
 | [Upscayl](projects/upscayl.md) · [upstream](https://github.com/upscayl/upscayl) | Enlarge an image with a simple graphical workflow. | Windows, macOS or Linux; upstream requires a compatible Vulkan GPU and notes limitations for integrated GPUs. |
 | [InvokeAI](projects/invokeai.md) · [upstream](https://github.com/invoke-ai/InvokeAI) | Work on generated images with a visual canvas workflow. | A supported installation and image model; consult current model-specific memory and accelerator guidance. |
 | [ComfyUI](projects/comfyui.md) · [upstream](https://github.com/Comfy-Org/ComfyUI) | Combine generation and processing steps in a visual graph. | Desktop or Python installation, model files and hardware appropriate to the workflow. |

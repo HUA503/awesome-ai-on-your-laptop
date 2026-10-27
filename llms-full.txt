@@ -2,7 +2,7 @@
 
 Find local AI apps for document chat, transcription, dictation, image editing and coding, with setup requirements, source links and practical caveats.
 
-**16 curated entries** · [Browse by task](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/README.md#browse-by-task) · [Suggest a project](https://github.com/QuicqDev/awesome-ai-on-your-laptop/issues/new?template=suggest-project.yml) · [JSON catalog](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/catalog.json) · [Agent index](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/llms.txt)
+**17 curated entries** · [Browse by task](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/README.md#browse-by-task) · [Suggest a project](https://github.com/QuicqDev/awesome-ai-on-your-laptop/issues/new?template=suggest-project.yml) · [JSON catalog](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/catalog.json) · [Agent index](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/llms.txt)
 
 Choose a useful task, compare the setup, then follow the original project. This collection covers desktop apps and a small set of supporting tools for Windows, macOS and Linux. Local execution is configuration-specific; cloud options are called out where relevant.
 
@@ -10,6 +10,7 @@ Choose a useful task, compare the setup, then follow the original project. This 
 
 | If you want to... | Explore | Why it belongs |
 |---|---|---|
+| Process everyday documents and media locally | [Baixia Workshop](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/baixia-workshop.md) | One Windows workspace combines conversion tools with local OCR, image processing and speech features. |
 | Chat with a downloaded model | [Jan](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/jan.md) | A graphical starting point for local model use. |
 | Ask questions about documents | [AnythingLLM](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/anythingllm.md) | A document workspace with configurable providers. |
 | Dictate into another app | [OpenWhispr](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/openwhispr.md) | Hotkey-based voice input with a local mode. |
@@ -59,6 +60,7 @@ Hardware requirements depend on model, quantization, context length and workload
 
 | Project | Useful for | Setup and requirements |
 |---|---|---|
+| [Baixia Workshop](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/baixia-workshop.md) · [upstream](https://github.com/HUA503/baixia-workshop) | Process everyday documents and media in one Windows workspace, including image and speech tasks with local AI models. | Windows 10 or 11 and Python 3.10 or newer; FFmpeg is recommended for media tools. Install Python dependencies and the project's model assets as directed upstream. |
 | [Upscayl](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/upscayl.md) · [upstream](https://github.com/upscayl/upscayl) | Enlarge an image with a simple graphical workflow. | Windows, macOS or Linux; upstream requires a compatible Vulkan GPU and notes limitations for integrated GPUs. |
 | [InvokeAI](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/invokeai.md) · [upstream](https://github.com/invoke-ai/InvokeAI) | Work on generated images with a visual canvas workflow. | A supported installation and image model; consult current model-specific memory and accelerator guidance. |
 | [ComfyUI](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/projects/comfyui.md) · [upstream](https://github.com/Comfy-Org/ComfyUI) | Combine generation and processing steps in a visual graph. | Desktop or Python installation, model files and hardware appropriate to the workflow. |
@@ -355,6 +357,32 @@ Use the upstream documentation for installation and examples. We link to the cre
 ## Improve this entry
 
 Submit a correction or a compatibility report through [the contribution guide](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/CONTRIBUTING.md). Entry ID: `piper`.
+
+
+# Baixia Workshop: Process everyday documents and media in one Windows workspace, including image and speech tasks with local AI models
+
+Windows-first file-processing app with local AI features for OCR, image background removal and upscaling, and audio transcription, alongside document and media conversion tools.
+
+[Upstream project](https://github.com/HUA503/baixia-workshop) · [Back to collection](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/README.md#images-and-design)
+
+| Field | Details |
+|---|---|
+| Category | Images and design |
+| Use case | Process everyday documents and media in one Windows workspace, including image and speech tasks with local AI models. |
+| Requirements | Windows 10 or 11 and Python 3.10 or newer; FFmpeg is recommended for media tools. Install Python dependencies and the project's model assets as directed upstream. |
+| Caveat | This is a Python app rather than a packaged cross-platform desktop release. Hardware needs vary by media and model; check separate terms for bundled model weights and review OCR and transcription output. |
+| Evidence | documentation-reviewed |
+| Documentation reviewed | 2026-10-27 |
+
+## Sources and getting started
+
+[Source 1](https://github.com/HUA503/baixia-workshop/blob/main/README.md) · [Source 2](https://github.com/HUA503/baixia-workshop/blob/main/requirements.txt) · [Source 3](https://github.com/HUA503/baixia-workshop/blob/main/LICENSE)
+
+Use the upstream documentation for installation and examples. We link to the creator’s demonstrations rather than presenting their work as our own. Confirm current software and model terms before use.
+
+## Improve this entry
+
+Submit a correction or a compatibility report through [the contribution guide](https://github.com/QuicqDev/awesome-ai-on-your-laptop/blob/main/CONTRIBUTING.md). Entry ID: `baixia-workshop`.
 
 
 # Upscayl: Enlarge an image with a simple graphical workflow

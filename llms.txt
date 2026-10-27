@@ -21,6 +21,7 @@ A documentation-reviewed collection maintained by QuicqDev. Follow source links 
 - [OpenWhispr](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/openwhispr.md): Speak text into the application you are already using. Evidence: documentation-reviewed.
 - [whisper.cpp](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/whisper-cpp.md): Build an offline transcription command or lightweight voice interface. Evidence: documentation-reviewed.
 - [Piper](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/piper.md): Generate spoken narration from text using a local voice. Evidence: documentation-reviewed.
+- [Baixia Workshop](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/baixia-workshop.md): Process everyday documents and media in one Windows workspace, including image and speech tasks with local AI models. Evidence: documentation-reviewed.
 - [Upscayl](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/upscayl.md): Enlarge an image with a simple graphical workflow. Evidence: documentation-reviewed.
 - [InvokeAI](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/invokeai.md): Work on generated images with a visual canvas workflow. Evidence: documentation-reviewed.
 - [ComfyUI](https://raw.githubusercontent.com/QuicqDev/awesome-ai-on-your-laptop/main/projects/comfyui.md): Combine generation and processing steps in a visual graph. Evidence: documentation-reviewed.
